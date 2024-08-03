@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Cozy Apartment",
+    "description": "A cozy apartment in the city center.",
+    "price": 2000,
+    "location": "Indore",
+    "bedrooms": 2,
+    "amenities": ["WiFi", "Air Conditioning"],
+    "image": "https://images.unsplash.com/photo-1674230227190-05b589f2f730?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 2,
+    "title": "Luxury Villa",
+    "description": "A luxurious villa with a private pool.",
+    "price": 6000,
+    "location": "Gwalior",
+    "bedrooms": 4,
+    "amenities": ["WiFi", "Pool", "Air Conditioning"],
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "title": "Modern Studio",
+    "description": "A modern studio apartment perfect for singles.",
+    "price": 1000,
+    "location": "Bhopal",
+    "bedrooms": 1,
+    "amenities": ["WiFi", "Gym"],
+    "image": "https://images.unsplash.com/photo-1603425013520-e0b30e6e37dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
+  },
+  {
+    "id": 4,
+    "title": "Family House",
+    "description": "A spacious family house with a big garden.",
+    "price": 5000,
+    "location": "Jabalpur",
+    "bedrooms": 3,
+    "amenities": ["WiFi", "Garden", "Air Conditioning"],
+    "image": "https://images.unsplash.com/photo-1472224371017-08207f84aaae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "title": "Beachfront Condo",
+    "description": "A condo with a beautiful view of the beach.",
+    "price": 3000,
+    "location": "Indore",
+    "bedrooms": 2,
+    "amenities": ["WiFi", "Pool", "Beach Access"],
+    "image": "https://images.unsplash.com/photo-1657579813217-777707525f94?q=80&w=2099&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 6,
+    "title": "Mountain Cabin",
+    "description": "A rustic cabin in the mountains.",
+    "price": 10000,
+    "location": "Gwalior",
+    "bedrooms": 3,
+    "amenities": ["WiFi", "Fireplace"],
+    "image": "https://images.unsplash.com/photo-1563373983-ac3cd3c764cd?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 7,
+    "title": "Penthouse Suite",
+    "description": "A luxurious penthouse with city views.",
+    "price": 3000,
+    "location": "Indore",
+    "bedrooms": 2,
+    "amenities": ["WiFi", "Gym", "Air Conditioning"],
+    "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 8,
+    "title": "Historic Cottage",
+    "description": "A charming cottage with historic features.",
+    "price": 2000,
+    "location": "Bhopal",
+    "bedrooms": 2,
+    "amenities": ["WiFi", "Garden"],
+    "image": "https://images.unsplash.com/photo-1579627559241-aa855a66df15?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 9,
+    "title": "Urban Loft",
+    "description": "A trendy loft in the heart of the city.",
+    "price": 1500,
+    "location": "Bhopal",
+    "bedrooms": 1,
+    "amenities": ["WiFi", "Gym"],
+    "image": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 10,
+    "title": "Countryside Farmhouse",
+    "description": "A farmhouse surrounded by nature.",
+    "price": 4000,
+    "location": "Jabalpur",
+    "bedrooms": 4,
+    "amenities": ["WiFi", "Garden", "Pet-Friendly"],
+    "image": "https://images.unsplash.com/photo-1543372165-23cb16764356?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 11,
+    "title": "City Studio",
+    "description": "A small but well-equipped studio in the city.",
+    "price": 2000,
+    "location": "Indore",
+    "bedrooms": 1,
+    "amenities": ["WiFi", "Air Conditioning"],
+    "image": "https://images.unsplash.com/photo-1664261421791-c25c5760f577?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 12,
+    "title": "Seaside Villa",
+    "description": "A villa with stunning sea views.",
+    "price": 4000,
+    "location": "Jabalpur",
+    "bedrooms": 3,
+    "amenities": ["WiFi", "Pool", "Beach Access"],
+    "image": "https://images.unsplash.com/photo-1616012760010-8da02da071fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 13,
+    "title": "Downtown Apartment",
+    "description": "A spacious apartment in the downtown area.",
+    "price": 8000,
+    "location": "Indore",
+    "bedrooms": 2,
+    "amenities": ["WiFi", "Gym", "Air Conditioning"],
+    "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 14,
+    "title": "Lake House",
+    "description": "A serene house by the lake.",
+    "price": 5000,
+    "location": "Bhopal",
+    "bedrooms": 3,
+    "amenities": ["WiFi", "Boat Dock", "Fireplace"],
+    "image": "https://images.unsplash.com/photo-1558690256-e908b8a53342?q=80&w=2130&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 15,
+    "title": "Eco-Friendly Home",
+    "description": "A sustainable home with eco-friendly features.",
+    "price": 6000,
+    "location": "Jabalpur",
+    "bedrooms": 3,
+    "amenities": ["WiFi", "Solar Panels", "Garden"],
+    "image": "https://images.unsplash.com/photo-1659918151409-a5e8d1f5d902?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

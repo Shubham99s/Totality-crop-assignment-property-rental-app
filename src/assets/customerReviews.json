@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cr1",
+    "reviewer": "Ankit Sharma",
+    "title": "Excellent Stay!",
+    "rating": 5,
+    "comment": "I had a wonderful experience staying at this property. The apartment was clean, well-furnished, and had all the amenities I needed. The location was perfect, right in the city center with easy access to public transport. The host was very responsive and helpful throughout my stay. Highly recommend!"
+  },
+  {
+    "id": "cr2",
+    "reviewer": "Priya Gupta",
+    "title": "Great Value for Money",
+    "rating": 4,
+    "comment": "The apartment was spacious and comfortable, with a fully equipped kitchen and a cozy living room. The neighborhood was quiet and safe, with plenty of shops and restaurants nearby. The price was very reasonable compared to other options in the area. The only downside was that the WiFi was a bit slow at times."
+  },
+  {
+    "id": "cr3",
+    "reviewer": "Neha Singh",
+    "title": "Fantastic Experience!",
+    "rating": 5,
+    "comment": "I absolutely loved my stay at this property. The apartment was modern and stylish, with a stunning view from the balcony. The host went above and beyond to ensure I had everything I needed. The location was perfect, close to major attractions and public transportation. I would definitely stay here again!"
+  }
+]

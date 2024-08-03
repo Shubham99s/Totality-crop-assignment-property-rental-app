@@ -1,0 +1,491 @@
+/* Header Section */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: rgb(39, 39, 39);
+  font-family: 'Roboto';
+}
+
+.logo {
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.link-logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navigation {
+  display: flex;
+  gap: 15px;
+}
+
+.link-list {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.link-list:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+/* Footer Section */
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background-color: rgb(39, 39, 39);
+  font-family: 'Roboto';
+}
+
+.copyright {
+  color: whitesmoke;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-link {
+  color: white;
+}
+
+/* Home Page */
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  align-items: center;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-image {
+  height: 500px;
+  border-radius: 10px;
+}
+
+.container-1 > h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.container-1 > p {
+  font-size: 30px;
+}
+
+.extra {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.extra-no {
+  font-size: 40px;
+  margin: 0;
+}
+
+.extra-text {
+  font-size: 20px;
+  margin: 0;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.container-2 > h1 {
+  margin: 0;
+}
+
+.container-2 > h2 {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.popular-list {
+  list-style: none;
+  margin: 40px 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.popular-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.popular-image {
+  width: 400px;
+}
+
+.popular-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.popular-location {
+  margin: 0;
+  color: gray;
+  padding: 0 10px;
+}
+
+.popular-price {
+  font-size: 30px;
+  margin: 0;
+  align-self: flex-end;
+  padding: 0 10px;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+.value-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.value-card > h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.value-card > h2 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.value-card > p {
+  margin: 0;
+}
+
+.value-list {
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+}
+
+.value-text-1 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.value-text-2 {
+  margin: 0;
+}
+
+.customer-section {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.customer-section > h1 {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.customer-section > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: 40px;
+  padding: 0;
+  gap: 20px;
+}
+
+.customer-card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.customer-title {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 500;
+  align-self: flex-end;
+}
+
+.customer-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.customer-comment {
+  font-size: 15px;
+}
+
+/* property section */
+
+.property-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.property-container > h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.property-container > h2 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.property-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  gap: 20px;
+}
+
+.property-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.property-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.property-image {
+  width: 800px;
+  height: 100%;
+}
+
+.property-title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.property-desc {
+  font-size: 20px;
+  margin: 0;
+}
+
+.property-bedroom {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.property-amenities {
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+.property-location {
+  margin: 10px 0;
+  font-size: 18px;
+  align-self: flex-end;
+}
+
+.amenities {
+  display: flex;
+  gap: 5px;
+}
+
+.amenities > p {
+  margin: 4px 0 20px;
+  font-weight: 500;
+}
+
+.property-sub-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.days-text {
+  font-size: 22px;
+  margin: 20px 0 0 0;
+}
+
+.days-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.days-box > p {
+  font-size: 20px;
+}
+
+.days-button {
+  border: none;
+  font-size: 20px;
+  background-color: #008dce;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.property-price {
+  align-self: flex-end;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.rs {
+  font-size: 25px;
+  margin: 0;
+}
+
+.add-button {
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #008dce;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid black;
+  width: 100%;
+}
+
+/* Cart Section */
+
+.empty-cart {
+  font-size: 30px;
+  color: gray;
+}
+
+.bill-section {
+  margin-top: 60px;
+  border-top: 2px solid black;
+}
+
+.bill-section > h3 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.bill-section > label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.bill-section > input {
+  margin-right: 30px;
+  padding: 15px;
+  outline: none;
+  font-size: 20px;
+}
+
+.total-cost {
+  text-align: end;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.button-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-button {
+  align-self: flex-end;
+  border: none;
+  padding: 20px 130px;
+  font-size: 20px;
+  background-color: #008dce;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: end;
+}
+
+/* filter section */
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gainsboro;
+  padding: 20px;
+  gap: 40px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter > label {
+  font-size: 20px;
+}
+
+.filter > select {
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.filter-button {
+  padding: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+  background-color: #029ae0;
+  border: none;
+}
