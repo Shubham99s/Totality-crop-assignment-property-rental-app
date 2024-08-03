@@ -1,6 +1,5 @@
 # Property Rental App
 The Property Rental App simplifies a web application for finding suitable rental Properties. Users can browse through available rental options.
-## Folder Structure
 
 ## Technology Stack
 #### Html, Css, Javascript, React.JS
