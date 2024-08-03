@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Property Rental App
+The Property Rental App simplifies a web application for finding suitable rental Properties. Users can browse through available rental options.
+## Folder Structure
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technology Stack
+#### Html, Css, Javascript, React.JS
 
-## Available Scripts
+## Setup Instructions
 
-In the project directory, you can run:
+## Frontend Setup
 
-### `npm start`
+### Navigate to the frontend directory:
+git clone https://github.com/Shubham99s/Totality-crop-assignment-property-rental-app.git
+cd Totality-crop-assignment-property-rental-app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install dependencies:
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Run the frontend development server:
+npm start
 
-### `npm test`
+The frontend application will be running on http://localhost:3000
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Frontend Overview
+### Components
+- src/components/CartItem.js: A component to display a list of Properties added to the cart.
+- src/components/Filter.js: A component used to filter the Properties based on location, price and bedrooms.
+- src/components/Footer.js: A component to display footer section.
+- src/components/Header.js: A component to display header section.
+- src/components/Property.js: A component to display Details of a Property.
 
-### `npm run build`
+### Main Files
+- src/pages/Home.js: The Home page of the application where I have added the Intro of the website, popular properties and public reviews.
+- src/pages/Properties.js: The Properties page where you can find the list of all the properties.
+- src/pages/Cart.js: The Cart page of the application is the final checkout process where contact and billing details is asked before renting any properties. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Context File
+- React Context is used to handle the cart item.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
